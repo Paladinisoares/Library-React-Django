@@ -1,0 +1,82 @@
+.book-card {
+  width: 100%;
+  border: 1px solid #e5e7eb;
+  border-radius: 8px;
+  background-color: white;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  max-height: fit-content;
+}
+
+.book-card-content {
+  padding: 1rem;
+}
+
+.book-card-image-container {
+  position: relative;
+  margin-bottom: 1rem;
+  display: flex;
+  justify-content: center;
+}
+
+.book-card-image {
+  border-radius: 8px;
+}
+
+.book-card-title {
+  font-size: 1.125rem;
+  font-weight: 600;
+  margin-bottom: 0.5rem;
+}
+
+.book-card-author {
+  font-size: 0.875rem;
+  color: #4b5563;
+  margin-bottom: 0.5rem;
+}
+
+.book-card-genre {
+  font-size: 0.75rem;
+  color: #6b7280;
+}
+
+.book-card-footer {
+  padding: 1rem;
+  border-top: 1px solid #e5e7eb;
+}
+
+.book-card-button {
+  width: 100%;
+  padding: 0.5rem 1rem;
+  background-color: white;
+  border: 1px solid #007bff;
+  border-radius: 4px;
+  font-size: 1rem;
+  color: #007bff;
+  cursor: pointer;
+  text-align: center;
+}
+
+.book-card-button:hover {
+  background-color: #007bff;
+  color: white;
+}
+
+.book-card-delete {
+  width: 100%;
+  padding: 0.5rem 1rem;
+  background-color: white;
+  border: 1px solid #ff0000;
+  border-radius: 4px;
+  font-size: 1rem;
+  color: #ff0000;
+  cursor: pointer;
+  text-align: center;
+  margin-top: 1rem;
+}
+
+.book-card-delete:hover {
+  background-color: #ff0000;
+  color: white;
+}
